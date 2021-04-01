@@ -5,12 +5,12 @@ return {
   name = "Filter Tests",
   baseURL = "",
   listings = {
-    Listing("Null", false, function() { return {} } end)
+    Listing("Null", false, function() return {} end)
   },
-  getPassage    = function() { return "" } end,
-  parseNovel    = function() { return NovelInfo() } end,
-  shrinkURL     = function() { return "" } end,
-  expandURL     = function() { return "" } end,
+  getPassage    = function() return ""          end,
+  parseNovel    = function() return NovelInfo() end,
+  shrinkURL     = function() return ""          end,
+  expandURL     = function() return ""          end,
   hasSearch     = false,
   searchFilters = {
             TextFilter(5, "This is a text filter"),
