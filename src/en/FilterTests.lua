@@ -5,26 +5,26 @@ return {
   name = "Filter Tests",
   baseURL = "",
   listings = {
-    Listing("Null", false, function() { return [] } )
+    Listing("Null", false, function() { return {} } end)
   },
-  getPassage    = function() { return "" },
-  parseNovel    = function() { return NovelInfo() },
-  shrinkURL     = function() { return "" },
-  expandURL     = function() { return "" },
+  getPassage    = function() { return "" } end,
+  parseNovel    = function() { return NovelInfo() } end,
+  shrinkURL     = function() { return "" } end,
+  expandURL     = function() { return "" } end,
   hasSearch     = false,
-  searchFilters = [
+  searchFilters = {
             TextFilter(5, "This is a text filter"),
             SwitchFilter(6, "This is a switch filter"),
             CheckboxFilter(7, "This is a check box filter"),
-            RadioGroupFilter(8, "This is a radio group filter", ["Choice A", "Choice B", "Choice C"]),
-            DropdownFilter(9, "This is a radio group filter", ["Choice A", "Choice B", "Choice C"]),
-            FilterGroup("This is a filter group", [ 
+            RadioGroupFilter(8, "This is a radio group filter", {"Choice A", "Choice B", "Choice C"}),
+            DropdownFilter(9, "This is a radio group filter", {"Choice A", "Choice B", "Choice C"}),
+            FilterGroup("This is a filter group", { 
               TextFilter(10,"TextFilter"), 
               TextFilter(11,"TextFilter") 
-            ]),
-            FilterList("This is a filter list", [ 
+            }),
+            FilterList("This is a filter list", {
               TextFilter(12, "TextFilter"), 
               SwitchFilter(13, "SwitchFilter") 
-            ])
-  ]
+            })
+  }
 }
