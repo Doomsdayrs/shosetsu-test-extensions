@@ -10,5 +10,6 @@ return {
   getPassage    = function() return ""          end,
   parseNovel    = function() return NovelInfo() end,
   shrinkURL     = function() return ""          end,
-  expandURL     = function() return ""          end
+  expandURL     = function() return ""          end,
+  hasSearch     = false 
 }
