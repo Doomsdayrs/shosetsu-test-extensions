@@ -1,7 +1,7 @@
 -- {"id":12323123,"ver":"1.0.0","libVer":"1.0.0","author":"Doomsdayrs","dep":[]}
 
 return {
-  id = 163568,
+  id = 12323123,
   name = "No Search Test".
   baseURL = "",
   listings = {

@@ -1,7 +1,7 @@
 -- {"id":163568,"ver":"1.0.0","libVer":"1.0.0","author":"Doomsdayrs","dep":[]}
 
 return {
-  id = 3,
+  id = 163568,
   name = "Filter Tests",
   baseURL = "",
   listings = {
