@@ -2,7 +2,7 @@
 
 return {
   id = 12323123,
-  name = "No Search Test".
+  name = "No Search Test",
   baseURL = "",
   listings = {
     Listing("Null", false, function() return {} end)
