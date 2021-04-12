@@ -20,6 +20,16 @@
      "libVer":"1.0.0",
      "md5":"",
      "imageURL":""
+    },
+    {
+     "name": "Settings Test",
+     "fileName":"SettingsTest",
+     "id":191401,
+     "lang":"en",
+     "ver":"1.0.1",
+     "libVer":"1.0.0",
+     "md5":"",
+     "imageURL":""
     }
   ]
 }
