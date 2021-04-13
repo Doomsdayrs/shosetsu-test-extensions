@@ -12,7 +12,23 @@ return {
   shrinkURL     = function() return ""          end,
   expandURL     = function() return ""          end,
   hasSearch     = false,
-  settings      = {},
+  settings      = {
+    TextFilter(5, "This is a text filter"),
+    SwitchFilter(6, "This is a switch filter"),
+    CheckboxFilter(7, "This is a check box filter"),
+    RadioGroupFilter(8, "This is a radio group filter", {"Choice A", "Choice B", "Choice C"}),
+    DropdownFilter(9, "This is a radio group filter", {"Choice A", "Choice B", "Choice C"}),
+    FilterGroup("This is a filter group", {
+        TextFilter(10,"TextFilter"), 
+        TextFilter(11,"TextFilter") 
+      }
+    ),
+    FilterList("This is a filter list", {
+        TextFilter(12, "TextFilter"), 
+        SwitchFilter(13, "SwitchFilter")
+      }
+    )
+  },
   updateSetting = function(id,value) 
     print("Update: (" .. id .. ")=[" .. value .. "]")
                                                 end
