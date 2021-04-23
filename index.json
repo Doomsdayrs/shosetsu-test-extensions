@@ -2,7 +2,7 @@
   "libraries":[],
   "scripts":[
     {
-      "name": "FilterTests",
+      "name": "Test: Filters",
       "fileName": "FilterTests",
       "imageURL": "",
       "id": 163568,
@@ -12,7 +12,7 @@
       "md5": ""
     },
     {
-     "name": "No Search Test",
+     "name": "Test: No Search",
      "fileName":"NoSearchTest",
      "id":12323123,
      "lang":"en",
@@ -22,7 +22,7 @@
      "imageURL":""
     },
     {
-     "name": "Settings Test",
+     "name": "Test: Extension Settings",
      "fileName":"SettingsTest",
      "id":191401,
      "lang":"en",

@@ -2,7 +2,7 @@
 
 return {
   id = 191401,
-  name = "Settings Test",
+  name = "Test: Extension Settings",
   baseURL = "",
   listings = {
     Listing("Null", false, function() return {} end)
@@ -17,7 +17,7 @@ return {
     SwitchFilter(6, "This is a switch filter"),
     CheckboxFilter(7, "This is a check box filter"),
     RadioGroupFilter(8, "This is a radio group filter", {"Choice A", "Choice B", "Choice C"}),
-    DropdownFilter(9, "This is a radio group filter", {"Choice A", "Choice B", "Choice C"}),
+    DropdownFilter(9, "This is a drop down filter", {"Choice A", "Choice B", "Choice C"}),
     FilterGroup("This is a filter group", {
         TextFilter(10,"TextFilter"), 
         TextFilter(11,"TextFilter") 
@@ -30,6 +30,9 @@ return {
     )
   },
   updateSetting = function(id,value) 
-    print("Update: (" .. id .. ")=[" .. value .. "]")
+    print("This is the id")
+    print(id)
+    print("This is the value")
+    print(value)
                                                 end
 }

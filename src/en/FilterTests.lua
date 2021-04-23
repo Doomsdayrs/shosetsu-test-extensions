@@ -2,7 +2,7 @@
 
 return {
   id = 163568,
-  name = "Filter Tests",
+  name = "Test: Filters",
   baseURL = "",
   listings = {
     Listing("Null", false, function() return {} end)
